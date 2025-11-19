@@ -2,10 +2,10 @@
 
 This repository contains the code and datasets for **Metric Learning based Weighted Linear Discriminant Analysis for Imbalanced Multi-Label Classification**, including:
 
--  MWLDAIML
--  Extensibility
-- -  Semi-Supervised Model
-- -  Feature Noise
+-  MWLDAIML model
+-  Its two extended variants
+- -  Semi-Supervised scenario
+- -  Feature noise scenario
 ---
 
 ## 1. System Requirements
@@ -35,17 +35,17 @@ The scripts expect datasets to be located at specific paths in test.py, test_sem
 ---
 II. Usage
 
-(1) MWLDAIML
+(1) MWLDAIML model
 
 ```bash
 python test.py
 ```
-(2) Semi-Supervised Model
+(2) Semi-Supervised scenario
 
 ```bash
 python test_semi.py
 ```
-(3) Noisy Dataset Experiments
+(3) Feature noise scenario
 
 ```bash
 python test_noisy.py

@@ -1,49 +1,51 @@
 # MWLDAIML
 
-This repository contains the code and datasets for [Metric learning based weighted linear discriminant analysis for imbalanced multi-label classification], including the original model, a semi-supervised variant, and experiments with feature noise.
+This repository contains the code and datasets for **Metric Learning based Weighted Linear Discriminant Analysis for Imbalanced Multi-Label Classification**, including:
 
-## System Requirements
+- Original model  
+- Semi-supervised model  
+- Experiments with feature noise
 
-The code was developed and tested on the following hardware and software environment:
+---
+
+## 1. System Requirements
+
+The code was developed and tested on:
 
 - **CPU:** 13th Gen Intel(R) Core(TM) i5-13600KF 3.50GHz  
 - **Memory:** 32 GB RAM  
 - **GPU:** NVIDIA GeForce RTX 4070 with 27.9 GB memory  
 - **OS:** 64-bit Windows 10  
-- **Python version:** >= 3.8 
+- **Python version:** >= 3.8  
 
-> Ensure that your system meets these requirements for optimal performance, especially for GPU-accelerated computations.
+> For GPU-accelerated computations, ensure that PyTorch is installed with CUDA support.
 
 ---
 
-## Installation
+## 2. Usage
 
-Clone this repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/hjttnt/code-of-MWLDAIML.git
 cd code-of-MWLDAIML
 
-## Dataset and Code Path Configuration
+The scripts expect datasets to be located at specific paths in test.py, test_semi.py and test_noisy.py. Ensure that your folder structure matches the paths in the scripts.
 
-The scripts expect the datasets to be located at specific paths in test.py, test_semi.py and test_noisy.py. Make sure your folder structure matches the paths used in the scripts.
-
----
-
-## Usage
-
-### Original Model
+2. Usage
+2.1 Original Model
 
 ```bash
 python test.py
 
-
-### Semi-Supervised Model
+2.2 Semi-Supervised Model
 
 ```bash
 python test_semi.py
 
-### Noisy Dataset Experiments
+2.3 Noisy Dataset Experiments
 
 ```bash
 python test_noisy.py
+
+Results and logs will be saved according to the configuration in each script.

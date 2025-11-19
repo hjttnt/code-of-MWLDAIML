@@ -23,7 +23,7 @@ The code was developed and tested on:
 ---
 
 ## 2. Usage
-
+```bash
 1. Clone the repository:
 
 ```bash

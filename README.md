@@ -39,15 +39,15 @@ The scripts expect datasets to be located at specific paths in test.py, test_sem
 
 ```bash
 python test.py
-
+```
 2.2 Semi-Supervised Model
 
 ```bash
 python test_semi.py
-
+```
 2.3 Noisy Dataset Experiments
 
 ```bash
 python test_noisy.py
-
+```
 Results and logs will be saved according to the configuration in each script.

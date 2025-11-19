@@ -23,13 +23,13 @@ The code was developed and tested on:
 ---
 
 ## 2. Usage
-```bash
+
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/hjttnt/code-of-MWLDAIML.git
 cd code-of-MWLDAIML
-
+```
 The scripts expect datasets to be located at specific paths in test.py, test_semi.py and test_noisy.py. Ensure that your folder structure matches the paths in the scripts.
 
 ---

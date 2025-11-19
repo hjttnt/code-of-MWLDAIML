@@ -32,6 +32,8 @@ cd code-of-MWLDAIML
 
 The scripts expect datasets to be located at specific paths in test.py, test_semi.py and test_noisy.py. Ensure that your folder structure matches the paths in the scripts.
 
+---
+
 2. Usage
 2.1 Original Model
 

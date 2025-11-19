@@ -2,9 +2,6 @@
 
 This repository contains the code and datasets for **Metric Learning based Weighted Linear Discriminant Analysis for Imbalanced Multi-Label Classification**, including:
 
-- Original model  
-- Semi-supervised model  
-- Experiments with feature noise
 ├─  MWLDAIML
 ├─  Extensibility
     ├─ Semi-Supervised Model

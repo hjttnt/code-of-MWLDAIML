@@ -5,7 +5,10 @@ This repository contains the code and datasets for **Metric Learning based Weigh
 - Original model  
 - Semi-supervised model  
 - Experiments with feature noise
-
+├─  MWLDAIML
+├─  Extensibility
+    ├─ Semi-Supervised Model
+    └─ Feature Noise
 ---
 
 ## 1. System Requirements
@@ -35,7 +38,7 @@ The scripts expect datasets to be located at specific paths in test.py, test_sem
 ---
 II. Usage
 
-(1) Original Model
+(1) MWLDAIML
 
 ```bash
 python test.py
